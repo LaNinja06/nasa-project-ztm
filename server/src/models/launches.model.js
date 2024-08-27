@@ -144,7 +144,6 @@ module.exports = {
     loadLaunchData,
     existsLaunchWithId,
     getAllLaunches,
-    // addNewLaunch,
     scheduleNewLaunch,
     abortLaunchById,
 }
