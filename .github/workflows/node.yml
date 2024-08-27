@@ -11,7 +11,7 @@ jobs:
       MONGO_URL: mongodb://localhost/nodejsztm
     strategy:
       matrix:
-        mongodb-version: ['6.0', '7.0', '8.0']
+        mongodb-version: ['4.4']
     runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v4
